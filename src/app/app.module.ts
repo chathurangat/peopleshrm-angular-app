@@ -7,6 +7,7 @@ import {TopNavbarComponent} from './top-navbar/top-navbar.component';
 import {FooterComponent} from './footer/footer.component';
 import {EmployeeListComponent} from './employees/employee-list/employee-list.component';
 import {AppRoutingModule} from './app-routing.module';
+import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import {AppRoutingModule} from './app-routing.module';
     LeftSidebarComponent,
     TopNavbarComponent,
     FooterComponent,
-    EmployeeListComponent
+    EmployeeListComponent,
+    PageNotFoundComponent
   ],
   imports: [
     BrowserModule,
