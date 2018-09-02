@@ -8,6 +8,8 @@ import {FooterComponent} from './footer/footer.component';
 import {EmployeeListComponent} from './employees/employee-list/employee-list.component';
 import {AppRoutingModule} from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { EmployeeCardComponent } from './employees/employee-list/employee-card-row/employee-card/employee-card.component';
+import { EmployeeCardRowComponent } from './employees/employee-list/employee-card-row/employee-card-row.component';
 
 
 @NgModule({
@@ -17,7 +19,9 @@ import { PageNotFoundComponent } from './page-not-found/page-not-found.component
     TopNavbarComponent,
     FooterComponent,
     EmployeeListComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    EmployeeCardComponent,
+    EmployeeCardRowComponent
   ],
   imports: [
     BrowserModule,
