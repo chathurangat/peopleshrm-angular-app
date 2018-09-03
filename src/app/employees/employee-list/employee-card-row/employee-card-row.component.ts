@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, Input, OnInit} from '@angular/core';
+import {EmployeeSummaryCard} from '../../model/employee-summary-details.model';
 
 @Component({
   selector: 'app-employee-card-row',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class EmployeeCardRowComponent implements OnInit {
 
-  constructor() { }
+  @Input() employeeSummary: EmployeeSummaryCard[];
+
+  constructor() {
+  }
 
   ngOnInit() {
   }
