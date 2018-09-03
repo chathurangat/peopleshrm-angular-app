@@ -2,6 +2,7 @@ import {Route, RouterModule} from '@angular/router';
 import {EmployeeListComponent} from './employees/employee-list/employee-list.component';
 import {NgModule} from '@angular/core';
 import {PageNotFoundComponent} from './page-not-found/page-not-found.component';
+import {AddNewEmployeeComponent} from './employees/add-new-employee/add-new-employee.component';
 
 const routes: Route [] = [
   {
@@ -9,7 +10,7 @@ const routes: Route [] = [
     children: [
       {
         path: 'new',
-        component: EmployeeListComponent
+        component: AddNewEmployeeComponent
       },
       {
         path: 'all',

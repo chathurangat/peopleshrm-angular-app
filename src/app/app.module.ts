@@ -10,6 +10,7 @@ import {AppRoutingModule} from './app-routing.module';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { EmployeeCardComponent } from './employees/employee-list/employee-card/employee-card.component';
 import {FormsModule} from '@angular/forms';
+import { AddNewEmployeeComponent } from './employees/add-new-employee/add-new-employee.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import {FormsModule} from '@angular/forms';
     FooterComponent,
     EmployeeListComponent,
     PageNotFoundComponent,
-    EmployeeCardComponent
+    EmployeeCardComponent,
+    AddNewEmployeeComponent
   ],
   imports: [
     BrowserModule,
