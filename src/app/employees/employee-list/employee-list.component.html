@@ -26,8 +26,12 @@
     </div>
 
 
-    <app-employee-card-row class="row" *ngFor="let employeeSummaryRaw of employeeSummary">
-    </app-employee-card-row>
+    <div class="row">
+
+      <app-employee-card class="col-md-4" *ngFor="let employeeSummaryRaw of employeeSummary">
+      </app-employee-card>
+
+    </div>
 
     <!--<app-employee-card-row class="row">-->
     <!--</app-employee-card-row>-->
